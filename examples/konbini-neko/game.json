@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "template": "collector",
+  "title": "深夜のコンビニ猫",
+  "slots": {
+    "hero": {
+      "file": "assets/hero.svg",
+      "label": "黒猫",
+      "size": [
+        256,
+        256
+      ],
+      "transparent": true
+    },
+    "enemy": {
+      "file": "assets/enemy.svg",
+      "label": "おそうじロボ",
+      "size": [
+        256,
+        256
+      ],
+      "transparent": true
+    },
+    "pickup": {
+      "file": "assets/pickup.svg",
+      "label": "おにぎり",
+      "size": [
+        256,
+        256
+      ],
+      "transparent": true
+    },
+    "background": {
+      "file": "assets/background.svg",
+      "label": "コンビニの床",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": false,
+      "tile": true
+    }
+  },
+  "rules": {
+    "duration": 60,
+    "hearts": 3,
+    "heroSpeed": 320,
+    "enemySpeed": 130,
+    "enemySpeedGrowth": 3.5,
+    "enemySpawnEvery": 4,
+    "maxEnemies": 8,
+    "maxPickups": 6,
+    "heroSize": 76,
+    "enemySize": 68,
+    "pickupSize": 44,
+    "shield": {
+      "enabled": true,
+      "every": 5,
+      "seconds": 4
+    }
+  },
+  "style": "やわらかい夜のネオン、丸っこいフラットイラスト"
+}
